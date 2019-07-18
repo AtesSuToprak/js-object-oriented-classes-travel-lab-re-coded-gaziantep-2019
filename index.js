@@ -12,12 +12,12 @@
 }
 
 class Route {
-  constructor (horizontal, vertical){
-    this.horizontal = horizontal;
-    this.vertical = vertical ;
+  constructor (startLocation, endLocation){
+    this.startLocation = {horizontal : park, vertical : 34};
+    this.endLocation = {horizontal : park, vertical : 45};
   }
   blocksTravelled() {
-    
+    return this.endLocation - this.startLocation ;
   }
 }
 
