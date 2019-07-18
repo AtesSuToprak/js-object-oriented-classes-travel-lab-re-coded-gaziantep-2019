@@ -11,6 +11,16 @@
   }
 }
 
+class Route {
+  constructor (horizontal, vertical){
+    this.horizontal = horizontal;
+    this.vertical = vertical ;
+  }
+  blocksTravelled() {
+    
+  }
+}
+
 /* describe('Route', function() {
   let route;
 
